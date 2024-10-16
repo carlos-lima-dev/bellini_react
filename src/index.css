@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Tipografia responsiva */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #b3b3b3;
+  --quaternary-color: #f1c40f;
+  --button-padding: 10px 20px;
+  --border-radius: 0.5rem;
+}
+.about_text {
+  padding: 80px 40px;
+}
+.about_text_h2 {
+  color: var(--black);
+  text-align: center;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+}
+.background_about_text p {
+  background-color: #f5f5f5;
+  padding: 60px;
+}
+
+.about_text_p {
+  text-transform: none;
+  font-family: Muli, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .about_text {
+    padding: 20px 10px;
+  }
+  .background_about_text p {
+    padding: 10px;
+  }
+}

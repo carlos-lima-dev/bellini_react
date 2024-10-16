@@ -1,0 +1,49 @@
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.hero_btn_absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.hero_btn_absolute h2 {
+  color: #fff;
+  font-size: 15vw;
+  letter-spacing: 5vw;
+}
+.btn_book_absolute {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn_book_absolute a {
+  background-color: var(--black);
+  color: var(--white);
+  padding: var(--button-padding);
+  transition: all 1.3s;
+  border: 2px solid #000;
+}
+.btn_book_absolute a:hover {
+  cursor: pointer;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .hero img {
+    object-fit: cover;
+    height: 400px;
+  }
+  .btn_book_absolute a {
+    padding: 6px 12px;
+  }
+}
