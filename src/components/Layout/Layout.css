@@ -137,7 +137,7 @@ p {
 /* Estilos da Sidebar */
 .sidebar {
   position: fixed;
-  top: -110%; /* Inicialmente escondida acima da tela */
+  top: -130%; /* Inicialmente escondida acima da tela */
   left: 0;
   width: 300px;
   height: 100vh; /* Preencher toda a altura da tela */
