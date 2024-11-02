@@ -87,7 +87,6 @@ a {
   color: #fff;
 }
 
-/* Espaçamento para o conteúdo não ficar oculto pelo header */
 main {
   flex: 1;
 }
@@ -137,10 +136,10 @@ p {
 /* Estilos da Sidebar */
 .sidebar {
   position: fixed;
-  top: -130%; /* Inicialmente escondida acima da tela */
+  top: -130%;
   left: 0;
   width: 300px;
-  height: 100vh; /* Preencher toda a altura da tela */
+  height: 100vh;
   background-color: var(--white);
   color: black;
   display: flex;
