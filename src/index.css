@@ -181,6 +181,10 @@ body {
   font-weight: 600;
   line-height: 38px;
 }
+.background_about_text {
+  display: flex;
+  justify-content: center;
+}
 .background_about_text p {
   background-color: #f5f5f5;
   padding: 60px;
@@ -197,6 +201,9 @@ body {
 @media (max-width: 768px) {
   .about_text {
     padding: 20px 10px;
+  }
+  .background_about_text {
+    flex-direction: column;
   }
   .background_about_text p {
     padding: 10px;

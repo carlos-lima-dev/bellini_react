@@ -13,7 +13,6 @@ const Header = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  // Função para determinar se o link é ativo
   const isActiveLink = (path) => currentPath === path;
 
   return (
