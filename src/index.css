@@ -208,4 +208,7 @@ body {
   .background_about_text p {
     padding: 10px;
   }
+  .about_text_h2 {
+    font-size: 20px;
+  }
 }
